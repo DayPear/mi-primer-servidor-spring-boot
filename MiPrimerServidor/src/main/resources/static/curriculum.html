@@ -9,7 +9,26 @@
             Referencia a los estilos de la página
             <style src=styles.css>
         -->
+        <style>
+            .calif{
+                background: rgb(173 203 246);
+                width: 300px;
+                float: right;
+            }
+            .info{
+                background: rgb(202 255 200);
+                width: 300px;
+                height: 150px;
+                overflow: auto;
+                float: left;
 
+                margin-right: 30px;
+            }
+            .pie{
+                background: rgb(218 193 248);
+                clear: both;
+            }
+        </style>
     </head>
 
     <!--
@@ -23,7 +42,18 @@
     <body>
         <h2>Curriculum Dayanara Peralta</h2>
         <main>
-            <table>
+            <h3>Acerca de mi</h3>
+            <div class="info"><p>
+                Mi nombre es Dayanara Peralta García.
+                Nací en Phoenix, Arizona, el 24 de octubre de 2006.
+                Estuve en el kínder Micaela Munguía; no cursé el primer grado, sino que entré directamente a segundo.
+                Después, estudié en la primaria Jorge Humberto Guzmán Román desde primero hasta sexto grado.
+                Mi educación secundaria la cursé en la Escuela Secundaria "José Rafael Campoy 21" en el turno vespertino;
+                casi no me gustaba este horario porque me perdía de las actividades que se suelen hacer por la tarde,
+                como ir a fiestas, salir a comer o visitar a mis abuelos.
+                La preparatoria la cursé en la escuela Conalep, ahí escogí la carrera tecnica de informática.
+            </p></div>
+            <div class="calif"><table>
                 <thead>
                 <tr>
                     <td>Materias</td>
@@ -52,7 +82,7 @@
                         <td>8</td>
                     </tr>
                 </tbody>
-            </table>
+            </table></div>
         </main>
         <h3>Mis habilidades</h3>
         <ul>
@@ -63,9 +93,11 @@
         </ul>
 
         <a href="hobbies.html">Estos son mis hobbies</a>
-        <footer id="contacto">
-            <p>Contacto:</p>
-            <a href="https://github.com/DayPear" target="_blank">GitHub</a>
-        </footer>
+        <div class="pie">
+            <footer id="contacto">
+                <p>Contacto:</p>
+                <a href="https://github.com/DayPear" target="_blank">GitHub</a>
+            </footer>
+        </div>
     </body>
 </html>
